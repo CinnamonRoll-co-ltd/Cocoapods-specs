@@ -5,12 +5,8 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Ben" => "benchen@cinnamonroll.com.tw" }
   s.source       = { :git => "git@github.com:CinnamonRoll-co-ltd/CRUserInterface.git", :tag => "#{s.version}" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.source_files = 'CRUserInterface/classes/*/*.{h,m}'
-  
+
 end
-
-
-
-
